@@ -1,0 +1,137 @@
+body{
+	margin: 0;
+	background: #F0F2F5;
+}
+.facebook{
+	width: 100%;
+}
+.container{
+	width: 80%;
+	margin:  auto;
+}
+.page-area{
+	padding: 100px 0;
+}
+.facebook-content-area{
+	width: 50%;
+	float: left;
+}
+
+
+
+/*facebook-content-area start*/
+.facebook-img img {
+	height: 86px;
+}
+.facebook_img_cont {
+	padding: 80px 0;
+}
+.facebook-content-area h2 {
+	font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+	font-size: 28px;
+	font-weight: normal;
+	line-height: 36px;
+	width: 500px;
+	margin-left: 12px;
+	margin-top: 0;
+}
+.facebook-form-area{
+	width: 50%;
+	overflow: hidden;
+}
+.facebook-form {
+	width: 80%;
+	margin: auto;
+	padding: 10px;
+	align-items: center;
+	background-color: #fff;
+	border: none;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+	box-sizing: border-box;
+	padding: 20px 20px 28px;
+}
+.facebook-form input[type="text"],
+.facebook-form input[type="password"] {
+	width: 100%;
+	box-sizing: border-box;
+	color: #90949c;
+	border: 1px solid #dddfe2;
+	font-size: 17px;
+	padding: 14px 16px;
+	margin-bottom: 11px;
+	border-radius: 6px;
+}
+.facebook-form form a {
+	text-align: center;
+	font-family: sans-serif;
+	display: block;
+	text-decoration: none;
+	padding-top: 10px;
+	color: #1877f2;
+}
+.facebook-form form a:hover{
+	text-decoration: underline;
+}
+.facebook-form form hr {
+	color: #dadde157;
+	width: 100%;
+	text-align: center;
+	margin: 24px 0;
+}
+.facebook-form form{
+	text-align: center;
+}
+.create_new_btn {
+	background: #42B72A;
+	border: none;
+	color: #fff;
+	width: 58%;
+	box-sizing: border-box;
+	padding: 14px 16px;
+	margin-bottom: 11px;
+	border-radius: 6px;
+	font-size: 17px;
+	font-weight: bold;
+	border: none;
+	cursor: pointer;
+}
+
+.create_new_btn:hover {
+	background-color: #36a420;
+	border-color: #36a420;
+}
+.login_btn{
+	background: #1877f2;
+	color: #fff;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 14px 16px;
+	margin-bottom: 11px;
+	border-radius: 6px;
+	font-size: 20px;
+	font-weight: bold;
+	border: none;
+	cursor: pointer;
+}
+.login_btn:hover{
+	background-color: #166fe5;
+}
+.facebook_last_text{
+	border-top: none;
+	color: #1c1e21;
+	font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	padding-top: 0;
+	text-align: center;
+	margin-top: 30px;
+}
+.facebook_last_text a{
+	color: #000;
+	font-weight: bold;
+	text-decoration: none;
+}
+.facebook_last_text a:hover{
+	text-decoration: underline;
+}
